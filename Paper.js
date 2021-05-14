@@ -14,7 +14,7 @@ class Paper {
     display(){
       ellipseMode(RADIUS);
   
-      fill("yellow");
+      fill("purple");
   
       circle(this.body.position.x, this.body.position.y, this.radius);
     }
