@@ -18,9 +18,9 @@ function setup() {
 
   ground = new Ground(400, 680, 800, 20);
   
-  leftSide = new Dustbin(525, 605, 20, 100);
-  bottom = new Dustbin(610, 660, 150, 20);
-  rightSide = new Dustbin(695, 605, 20, 100);
+  leftSide = new Dustbin(505, 605, 20, 100);
+  bottom = new Dustbin(610, 660, 190, 20);
+  rightSide = new Dustbin(715, 605, 20, 100);
 
 	Engine.run(engine);
   
