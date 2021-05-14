@@ -15,7 +15,7 @@ class Ground {
     display(){
       rectMode(CENTER);
   
-      fill(255);
+      fill("yellow");
   
       rect(this.body.position.x, this.body.position.y, this.width, this. height);
       }
